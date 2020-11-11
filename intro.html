@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Big Thumb Casino!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/intro.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h2 class="display-5 text-center">Big Thumb Casino</h1>
+            <p class="lead text-center font-italic">The biggest online casino in Canada</p>
+            <hr class="my-2">
+    </div>
+    <div class="container">
+        <form action="game.html" method="get" id="regForm" name="regForm">
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="firstName" class="col-4 col-form-label text-right">First Name:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Jun">
+                </div>
+                <div id="msg1" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="lastName" class="col-4 col-form-label text-right">Last Name:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Wu">
+                </div>
+                <div id="msg2" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="userName" class="col-4 col-form-label text-right">User Name:</label>
+                <div class="col-4 ">
+                    <input type="text" class="form-control" name="userName" id="userName" placeholder="Da4">
+                </div>
+                <div id="msg3" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="phone" class="col-4 col-form-label text-right">Phone Number:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="819-999-8888">
+                </div>
+                <div id="msg4" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="city" class="col-4 col-form-label text-right">City:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" name="city" id="city" placeholder="">
+                </div>
+                <div id="msg5" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="email" class="col-4 col-form-label text-right">Email:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="namevalue@domain.[com|ca|org]">
+                </div>
+                <div id="msg6" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <label for="amt" class="col-4 col-form-label text-right">Amount($):</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" name="amt" id="amt" placeholder="1000">
+                </div>
+                <div id="msg7" class="msg col-4"></div>
+            </div>
+            <div class="form-group row col-xl-8  col-lg-8 col-md-10 col-sm-10 col-xs-12 offset-xl-3">
+                <div class="col-5">
+                </div>
+                <div class="col-7">
+                    <input type="button" value="Play!" class="btn btn-primary" id="playBtn" ">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity=" sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity=" sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin=" anonymous "></script>
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity=" sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin=" anonymous "></script>
+    <script src=" ./js/intro.js "></script>
+</body>
+
+</html>

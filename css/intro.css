@@ -1,0 +1,52 @@
+.jumbotron {
+    background: linear-gradient(blue, pink);
+    border: 5px solid #FFD700;
+}
+
+.jumbotron h2 {
+    font-size: 3em;
+    color: #fa6948;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-shadow: 0 0 4px white, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -25px 18px #f20;
+}
+
+.msg {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .btn,
+    label,
+    input {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn,
+    label,
+    input {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn,
+    label,
+    input {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn,
+    label,
+    input {
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+}

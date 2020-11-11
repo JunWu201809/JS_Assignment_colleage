@@ -1,0 +1,22 @@
+#contain canvas {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+
+#coinImg {
+    position: absolute;
+    left: 430px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+#skipImg {
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+    height: 300px;
+    z-index: 3;
+    cursor: pointer;
+}

@@ -1,0 +1,144 @@
+.jumbotron {
+    background: linear-gradient(blue, pink);
+    border: 5px solid #FFD700;
+}
+
+.jumbotron h2 {
+    font-size: 3em;
+    color: #fa6948;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-shadow: 0 0 4px white, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -25px 18px #f20;
+}
+
+#computerBoard,
+#centerBoard,
+#playerCards,
+#actionBoard {
+    margin: 0px auto;
+    width: 95%;
+    text-align: center;
+}
+
+#computerBoard,
+#playerCards {
+    border: 1px solid rgb(0, 204, 255);
+}
+
+#computerBoard span {
+    margin-right: 5px;
+}
+
+#funcDiv,
+#heardInfo {
+    margin-bottom: 5px;
+    min-height: 150px;
+    height: auto;
+    border: 1px solid rgb(0, 204, 255);
+    text-align: center;
+}
+
+#funcDiv div {
+    margin-top: 10px;
+}
+
+#betAmt {
+    color: red;
+    font-weight: bold;
+}
+
+#deckDiv div span {
+    font-size: 1.1em;
+    color: red;
+    font-weight: bold;
+}
+
+#betInput {
+    width: 10vh;
+}
+
+#msg {
+    color: red;
+}
+
+#betImgDiv img {
+    width: 100px;
+    height: 100px;
+}
+
+#heardInfo a {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .btn,
+    #msg {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    #deckDiv img {
+        width: 3em;
+        margin-right: 5px;
+    }
+    #betInputDiv input {
+        width: 35px;
+    }
+    #heardInfo>span {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn,
+    #msg {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    #deckDiv img {
+        width: 4em;
+        margin-right: 5px;
+    }
+    #betInputDiv input {
+        width: 50px;
+    }
+    #heardInfo span {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn,
+    #msg {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    #deckDiv img {
+        width: 4.5em;
+        margin-right: 5px;
+    }
+    #betInputDiv input {
+        width: 60px;
+    }
+    #heardInfo>span {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn,
+    #msg {
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+    #deckDiv img {
+        width: 5em;
+        margin-right: 10px;
+    }
+    #betInputDiv input {
+        width: 70px;
+    }
+    #heardInfo span,
+    #heardInfo a {
+        font-size: 14px;
+    }
+}
